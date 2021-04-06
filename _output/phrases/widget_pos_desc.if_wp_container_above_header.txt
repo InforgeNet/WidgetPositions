@@ -1,0 +1,1 @@
+A position in every page of the website above the header (just below the breadcrumbs and the notices).

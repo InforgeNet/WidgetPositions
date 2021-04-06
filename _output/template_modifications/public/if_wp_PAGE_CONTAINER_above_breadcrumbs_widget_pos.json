@@ -1,0 +1,9 @@
+{
+    "template": "PAGE_CONTAINER",
+    "description": "Adds the 'Public: Above breadcrumbs' widget position.",
+    "execution_order": 1,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:ad position=\"container_breadcrumb_top_above\" />",
+    "replace": "<xf:widgetpos id=\"if_wp_container_above_breadcrumbs\" />\n$0"
+}
